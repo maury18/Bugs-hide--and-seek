@@ -4,6 +4,6 @@ function clearFields(){
 
 function plus(){
 const value1 = (document.getElementById('value-1').value);
-const value2 = parseInt(document.getElementById('value-2').value);
-document.getElementById('result') .innerHTML = value1 + value2;
+const value2 = (document.getElementById('value-2').value);
+document.getElementById('result') .innerHTML = value1+value2;
 }
